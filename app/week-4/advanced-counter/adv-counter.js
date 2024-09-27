@@ -4,7 +4,7 @@ export default function AdvCounter({currentCount, incrementCounterFunction, rese
     if (currentCount >= 10){
         btnDisabled = true;
     }
-    let btnStyles="bg-blue-600 text-white rounded py-2 px-4 mt-5 hover:bg-blue-400 active:bg-yellow-600 disabled:bg-gray-400"
+    let btnStyles="bg-blue-600 text-white rounded py-2 px-4 mt-5 ml-5 hover:bg-blue-400 active:bg-yellow-600 disabled:bg-gray-400"
     
     return (
         <div className="bg-slate-300 p-5">
